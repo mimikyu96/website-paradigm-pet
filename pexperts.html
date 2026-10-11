@@ -24,4 +24,44 @@
         <a href="pexperts.html">Consultations</a>
     </nav>
 
+    <h2>Consultations</h2>
+
+    <p>
+        We are happy to help you navigate the adoption process! 
+        We will guide you through each step in the process from determining which type of pet is best suited for your family and home environment, to completing the necessary paperwork, 
+        to bringing your new loved one home. 
+        Please fill out our contact form to request a consultation. 
+        We will contact you within 48 hours to schedule a consultation. All fields are required.
+    </p>
+
+    <form action="submit_form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required><br><br>
+
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email address" required><br><br>
+
+        <label for="timezone">Time Zone:</label>
+        <input type="text" id="timezone" name="timezone" placeholder="Enter your time zone" required><br><br>
+
+        <label for="pet-name">Pet's Name:</label>
+        <input type="text" id="pet-name" name="pet-name" placeholder="Enter your pet's name" required><br><br>
+
+        <label for="pet-type">Pet Type:</label>
+        <select id="pet-type" name="pet-type" placeholder="Select your pet type" required>
+            <option value="dog">Dog</option>
+            <option value="cat">Cat</option>
+            <option value="bird">Bird</option>
+            <option value="other">Other</option>
+        </select><br><br>
+
+        <label for="pet-age">Pet's Age:</label>
+        <input type="number" id="pet-age" name="pet-age" placeholder="Enter your pet's age" required><br><br>
+
+        <input type="submit" value="Submit">
+    </form>
+
 </body>
