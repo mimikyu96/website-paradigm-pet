@@ -20,13 +20,13 @@ header {
 }
 
 header h1,
-header h5{
+header h5 {
     text-align: center;
     margin: 0;
 }
 
 header h1 {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 nav {
@@ -41,7 +41,7 @@ nav {
 }
 
 nav a {
-    color: white;
+    color: #BDBDBD;
     text-decoration: none;
     margin: 5px 100px;
 }
@@ -71,10 +71,8 @@ nav a:hover {
     cursor: pointer;
 }
 
-main {
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-    background-color: #6699CC;
+main p {
+    margin-bottom: 30px;
 }
 
 .main-content {
@@ -90,10 +88,6 @@ main {
     font-family: 'Arial', sans-serif;
     background-color: #6699CC;
     margin-bottom: 0;
-}
-
-aside {
-    text-align: center;
 }
 
 .home-page-image,
@@ -138,6 +132,6 @@ footer {
     padding: 5px;
     margin: 0;
     background-color: #003B6D;
-    color: white;
+    color: #BDBDBD;
     font-family: 'Arial', sans-serif;
 }
