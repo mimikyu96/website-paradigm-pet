@@ -50,6 +50,12 @@ nav a:hover {
     text-decoration: underline;
 }
 
+.active {
+    background-color: #6699CC;
+    font-weight: bold;
+    color: #003B6D;
+}
+
 .search-bar {
     display: flex;
     align-items: center;
